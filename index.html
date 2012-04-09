@@ -38,8 +38,58 @@
         <article class="markdown-body">
           <h3>Welcome to the CanvasPong Tutorial</h3>
 
+<<<<<<< HEAD
 <p>I will show you how to build the famous game <strong>Pong</strong> in a HTML5 <strong>canvas tag</strong>. This tutorial is for beginners in HTML5, to get in touch with the canvas element and how to build simple games with <em>JavaScript</em>. <br /><hr />
 I'm sorry, but the tutorial isn't finish at the moment. I'm working hard on it to upload it asap.<br />Come back later to learn how code Pong in canvas.</p>
+=======
+<p>I will show you how to build the famous game <strong>Pong</strong> in a HTML5 <strong>canvas tag</strong>. This tutorial is for beginners in HTML5, to get in touch with the canvas element and how to build simple games with <em>JavaScript</em>. I won't explain every code snipped in detail but the most important ones will be explained.<br />
+You should be familiar with <strong>HTML</strong> and <strong>JavaScript</strong>.<br />
+If you find any kind of mistakes (either spelling/grammar mistakes or code mistakes) don't hesitate to contact me.</p>
+
+<h3>What will it look like?</h3>
+
+<p>Before we start with the tutorial, I show you what <em>CanvasPong</em> will look at the end.<br />
+<img src="http://linkToThePicture" alt="CanvasPong" /></p>
+
+<h3>Let's start creating <em>index.html</em></h3>
+
+<p>The new canvas tag in HTML5 is a simple but powerful tag. To use it we create the simple index.html file.</p>
+
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+	&lt;link rel="stylesheet" href="style.css" type="text/css" media="screen" /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;canvas id="canvasPong" width="700" height="500"&gt;
+	&lt;p&gt;Oh no! Your Browser does not support the canvas tag.&lt;/p&gt;
+&lt;/canvas&gt;
+&lt;button id="but" onclick="setUp.init()"&gt;Start&lt;/button&gt;
+&lt;script src="cpong.js" type="text/javascript"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p>In the first line we declare the <strong>Doctype</strong> of html. This is the new HTML5 Doctype; it's simple and short. In our <code>head</code> I link to a CSS stylesheet.<br />
+If you look now in the <code>body</code>you see the new <code>canvas</code>-tag.</p>
+
+<pre><code>&lt;canvas id="canvasPong" width="700" height="500"&gt;
+    &lt;p&gt;Oh no! Your Browser does not support the canvas tag.&lt;/p&gt;
+&lt;/canvas&gt;
+</code></pre>
+
+<p>We give it the <em>id</em> "canvasPong". We need this 1) to style it in css and 2) to call it in JavaScript (JS). It's important to give it a width and height. I did it in the tag itself, but you can also use widht and height in the stylesheet.<br />
+The <code>p</code>-tag in the <code>canvas</code>-tag will only be displayed if a browser does not support HTML5 and its canvas element. It's not necessary to use this fallback, but I recommend it. Because a lot of people are still using non-HTML5 browser.<br />
+Last but not least, we close the tag.</p>
+
+<h3>Author</h3>
+
+<p>bla bla bla</p>
+
+<h3>Support or Contact</h3>
+
+<p>Having trouble with the tutorial or did you find a mistake? Contact me at tutorial@hanshelgebuerger.de and I’ll help you sort it out.</p>
+>>>>>>> working
 
         </article>
       </div>
