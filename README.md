@@ -10,7 +10,7 @@ Tutorial of the traditional game Pong build in a HTML5 canvas tag
 
 *CanvasPong* is a self-made tutorial to get know the canvas-tag in HTML5. This tag is a nice way to build HTML5 games with **JavaScript**.
 
-#[BRING ME TO THE TUTORIAL](http://obstschale.github.com/CanvasPong/ "CanvasPong Tutorial")
+#[Bring me to the Tutorial](http://obstschale.github.com/CanvasPong/ "CanvasPong Tutorial") | [Show me the DEMO](http://obstschale.github.com/CanvasPong/ "Demo CanvasPong")
 
 ### Background
 
