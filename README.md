@@ -4,6 +4,7 @@ Tutorial of the traditional game Pong build in a HTML5 canvas tag
 
 **Author:** [Hans-Helge B&uuml;rger ](http://www.hanshelgebuerger.de "Hans-Helge Bürger - Webpage")  
 **Date:** 6th April 2012  
+**Version:** v.1.0  
 **Licence:** [Attribution 3.0 Unported (CC BY 3.0)](http://creativecommons.org/licenses/by/3.0/ "Attribution 3.0 Unported (CC BY 3.0)")
 
 ### Introduction
