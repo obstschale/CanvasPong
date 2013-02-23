@@ -205,26 +205,34 @@ var draw = {
 
 //Keydown Events
 document.onkeydown = function(evt) {
+	// key 'W'
 	if (evt.keyCode === 87)
 		paddle1up = true;
+	// key 'S'
 	else if (evt.keyCode === 83)
 		paddle1down = true;
 	
-	if (evt.keyCode === 38)
+	// key 'O'
+	if (evt.keyCode === 79)
 		paddle2up = true;
-	else if (evt.keyCode === 40)
+	// key 'L'
+	else if (evt.keyCode === 76)
 		paddle2down = true;
 }
 
 document.onkeyup = function(evt) {
+	// key 'W'
 	if (evt.keyCode === 87)
 		paddle1up = false;
+	// key 'S'
 	else if (evt.keyCode === 83)
 		paddle1down = false;
 	
-	if (evt.keyCode === 38)
+	// key 'O'
+	if (evt.keyCode === 79)
 		paddle2up = false;
-	else if (evt.keyCode === 40)
+	// key 'L'
+	else if (evt.keyCode === 76)
 		paddle2down = false;
 }
 
